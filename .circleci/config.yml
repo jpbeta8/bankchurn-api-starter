@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            railway up --service=bankchurn-api
+            railway up --service=bankchurn-api-starter
             railway up --detach
 
 
