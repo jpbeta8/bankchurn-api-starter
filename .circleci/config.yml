@@ -28,10 +28,8 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            railway up --service=bankchurn-api-starter
-            railway up --detach
-
-
+            railway up --service=bankchurn-api-starter --yes --detach
+            
 tags_only: &tags_only
   filters:
     branches:
